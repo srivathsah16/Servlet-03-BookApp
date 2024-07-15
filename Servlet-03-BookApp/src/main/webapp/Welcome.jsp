@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book Application</title>
+</head>
+<body>
+<h1>Enter Book Details</h1>
+<form action="InsertBookServlet" method="post">
+	<label for="bookId">Book ID</label>
+	<input type="text" id="bookId" name="bookId"/>
+	<br>
+	<label for="bookName">Book Name</label>
+	<input type="text" id="bookName" name="bookName"/>
+	<br>
+	<label for="bookPrice">Book Price</label>
+	<input type="text" id="bookPrice" name="bookPrice"/>
+	<br>
+	<input type="submit" name="submit"/>
+</form>
+
+</body>
+</html>
